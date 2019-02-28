@@ -29,16 +29,31 @@ class SlotSocialFollowType extends SlotType
         parent::buildForm($builder, $options);
 
         $builder->add(
-            'glink',
+            'ilink',
             TextType::class,
             [
-                'label'      => 'mautic.core.googleplus.url',
+                'label'      => 'mautic.core.instagram.url',
                 'label_attr' => ['class' => 'control-label'],
                 'required'   => false,
                 'attr'       => [
-                    'value'           => 'http://plus.google.com',
+                    'value'           => 'http://www.instagram.com',
                     'class'           => 'form-control',
-                    'data-slot-param' => 'glink',
+                    'data-slot-param' => 'ilink',
+                ],
+            ]
+        );
+
+        $builder->add(
+            'link',
+            TextType::class,
+            [
+                'label'      => 'mautic.core.linkedin.url',
+                'label_attr' => ['class' => 'control-label'],
+                'required'   => false,
+                'attr'       => [
+                    'value'           => 'http://www.linkedin.com',
+                    'class'           => 'form-control',
+                    'data-slot-param' => 'llink',
                 ],
             ]
         );

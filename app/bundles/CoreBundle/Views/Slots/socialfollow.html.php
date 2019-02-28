@@ -11,16 +11,20 @@
 ?>
 
 <div class="socialfollow">
-    <a id="glink" href="http://plus.google.com" target="_blank"><img
-            src="<?php echo $view['assets']->getUrl('themes/neopolitan/img/gplus.gif', null, null, true); ?>"
-            alt="google+"
+    <a id="ilink" href="http://www.instagram.com" target="_blank"><img
+            src="<?php echo $view['assets']->getUrl('themes/neopolitan/img/instagram.png', null, null, true); ?>"
+            alt="instagram"
+            class="fr-view fr-dii fr-draggable"></a>
+    <a id="llink" href="http://www.linkedin.com" target="_blank"><img
+            src="<?php echo $view['assets']->getUrl('themes/neopolitan/img/linkedIn.png', null, null, true); ?>"
+            alt="linkedin"
             class="fr-view fr-dii fr-draggable"></a>
     <a id="flink" href="http://www.facebook.com" target="_blank"><img
-            src="<?php echo $view['assets']->getUrl('themes/neopolitan/img/facebook.gif', null, null, true); ?>"
+            src="<?php echo $view['assets']->getUrl('themes/neopolitan/img/facebook.png', null, null, true); ?>"
             alt="facebook"
             class="fr-view fr-dii fr-draggable"></a>
     <a id="tlink" href="http://www.twitter.com" target="_blank"><img
-            src="<?php echo $view['assets']->getUrl('themes/neopolitan/img/twitter.gif', null, null, true); ?>"
+            src="<?php echo $view['assets']->getUrl('themes/neopolitan/img/twitter.png', null, null, true); ?>"
             alt="twitter"
             class="fr-view fr-dii fr-draggable"></a>
 </div>
